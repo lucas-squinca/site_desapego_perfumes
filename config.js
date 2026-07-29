@@ -28,27 +28,59 @@ const perfumes = [
     occasion: "Assinatura", season: "Todas as Estações", longevity: "6 horas", sillage: "Moderada", images: ["images/viagem_encantada.avif"]
   },
   {
-    brand: "Natura", name: "Kaiak Aventura", type: "Deo Parfum · 100ml", fill: 40, price: "90",
-    tag: "Aquático", category: ["Feminino"],
-    description: "Um aquático fresco e leve, pensado para o dia a dia e atividades ao ar livre. Simples e fácil de usar.",
-    notes: { topo: ["Notas marinhas", "Toranja"], coracao: ["Flores brancas", "Frutas"], fundo: ["Almíscar", "Madeiras claras"] },
-    accords: [ {name:"Aquático", value:75}, {name:"Frutado", value:40}, {name:"Floral", value:30}, {name:"Almiscarado", value:35} ],
-    occasion: "Dia a dia, esportes", season: "Primavera/Verão", longevity: "3-5 horas", sillage: "Leve", images: []
+    brand: "O Boticário", name: "Botica 214 African Sunrize", type: "Deo Parfum · 90ml", fill: 90, price: "140",
+    tag: "Amadeirado Aromático", category: ["Masculino"],
+    description: "Amadeirado aromático com um toque de couro denso por conta da nota de camurça. Perfume Assinatura.",
+    notes: { topo: ["Bagas de zimbro", "Bergamota", "Elemi"], coracao: ["Gerânio", "Sálvia", "Alecrim", "Murta"], fundo: ["Camurça", "Sândalo", "Patchouli"] },
+    accords: [ {name:"Aromático", value:90}, {name:"Fresco Especiado", value:70}, {name:"Amadeirado", value:65}, {name:"Herbal", value:35} ],
+    occasion: "Dia a dia, assinatura.", season: "Primavera/Verão/Outono", longevity: "7 horas", sillage: "Leve", images: ["images/214_african_sunrize.avif"]
   },
   {
-    brand: "Le Labo", name: "Santal 33", type: "Decant · 5ml", fill: 100, price: "120",
-    tag: "Nichado", category: ["Nichado", "Unissex"],
-    description: "Amadeirado seco e levemente fumado, famoso pela assinatura olfativa marcante e unissex. Um clássico moderno de nicho.",
-    notes: { topo: ["Cardamomo", "Íris", "Violeta"], coracao: ["Sândalo", "Couro"], fundo: ["Cedro", "Âmbar", "Almíscar"] },
-    accords: [ {name:"Amadeirado", value:85}, {name:"Couro", value:60}, {name:"Especiado", value:40}, {name:"Almiscarado", value:45} ],
-    occasion: "Qualquer ocasião", season: "Todas as estações", longevity: "6-8 horas", sillage: "Moderada", images: []
+    brand: "Lattafa", name: "Ajwaa", type: "Mini Frasco · 20ml (SEM CAIXA)", fill: 100, price: "55",
+    tag: "Unissex", category: ["Unissex"],
+    description: "Perfume doce ambarado compartilhável.",
+    notes: { topo: ["Tâmaras", "Elemi", "Limão", "Bergamota"], coracao: ["Alcaçuz", "Mirra"], fundo: ["Benjoim", "Incenso"] },
+    accords: [ {name:"Âmbar", value:85}, {name:"Doce", value:75}, {name:"Balsâmico", value:60}, {name:"Picante Suave", value:45} ],
+    occasion: "Eventos descontraídos, dia-a-dia ameno", season: "Primavera/Outono", longevity: "6-7 horas", sillage: "Moderada", images: ["images/ajwaa.avif"]
   },
   {
-    brand: "Ferrari", name: "Ferrari Black", type: "Eau de Toilette · 125ml", fill: 60, price: "70",
-    tag: "Amadeirado", category: ["Masculino"],
-    description: "Amadeirado aromático simples e clássico, com boa relação custo-benefício. Ideal para o uso casual do dia a dia.",
-    notes: { topo: ["Bergamota", "Limão"], coracao: ["Lavanda", "Gerânio"], fundo: ["Sândalo", "Âmbar", "Almíscar"] },
-    accords: [ {name:"Amadeirado", value:60}, {name:"Aromático", value:55}, {name:"Cítrico", value:45}, {name:"Almiscarado", value:30} ],
-    occasion: "Dia a dia", season: "Todas as estações", longevity: "4-6 horas", sillage: "Leve a moderada", images: []
+    brand: "Lattafa", name: "Al'Qiam Gold", type: "Mini Frasco · 20ml (SEM CAIXA)", fill: 100, price: "55",
+    tag: "Amadeirado encouraçado", category: ["Masculino"],
+    description: "Amadeirado denso com couro para ocasiões especiais.",
+    notes: { topo: ["Framboesa", "Açafrão"], coracao: ["Couro", "Patchouli"], fundo: ["Oud", "Âmbar", "Benjoim", "Madeira Guaiac", "Vetiver"] },
+    accords: [ {name:"Couro", value:100}, {name:"Oud", value:80}, {name:"Especiado Quente", value:78}, {name:"Âmbar", value:70} ],
+    occasion: "Ocasiões especiais", season: "Outono/Inverno", longevity: "9+ horas", sillage: "Moderada a Intensa", images: ["images/al_qiam.avif"]
+  },
+  {
+    brand: "Phytoderm", name: "Are You in?", type: "Eau de Parfum - 90ml (SEM CAIXA)", fill: 95, price: "75",
+    tag: "Amadeirado Aromático Intenso", category: ["Masculino"],
+    description: "Amadeirado masculino com toque adocicado de baunilha.",
+    notes: { topo: ["Cardamomo", "Olibano"], coracao: ["Tabaco", "Patchouli", "Vetiver"], fundo: ["Baunilha", "Couro", "Ladano", "Cedro", "Camurça"] },
+    accords: [ {name:"Especiado Quente", value:95}, {name:"Amadeirado", value:80}, {name:"Âmbar", value:65}, {name:"Baunilha", value:45} ],
+    occasion: "Ocasiões especiais", season: "Outono/Inverno", longevity: "10 horas", sillage: "Moderada a Intensa", images: ["images/are_you_in.avif"]
+  },
+  {
+    brand: "Lattafa", name: "Art Of Arabia III", type: "Mini Frasco · 20ml", fill: 100, price: "55",
+    tag: "Aromático Especiado", category: ["Masculino"],
+    description: "Perfume aromático adocicado com um toque frutal das tâmaras, junto ao lado resinoso da Mirra",
+    notes: { topo: ["Olibano", "Davana", "Bergamota"], coracao: ["Tâmaras", "Tabaco", "Sândalo", "Tuberosa"], fundo: ["Mirra", "Baunilha", "Fava Tonka", "Ládano", "Patchouli"] },
+    accords: [ {name:"Âmbar", value:95}, {name:"Doce", value:80}, {name:"Baunilha", value:50}, {name:"Especiado Quente", value:45} ],
+    occasion: "Assinatura para dias frios", season: "Outono/Inverno", longevity: "7 horas", sillage: "Moderada", images: ["images/art_of_arabia_3.avif"]
+  },
+  {
+    brand: "Avon", name: "Black Essential Secret", type: "EDT - 100ml", fill: 100, price: "50",
+    tag: "Aromático Frutado", category: ["Masculino"],
+    description: "Aromático fresco para todas as ocasiões com leve frutado doce da maçã vermelha.",
+    notes: { topo: ["Maçã Vermelha", "Toranja"], coracao: ["Lavanda", "Cardamomo"], fundo: ["Vetiver de Madagascar", "Fava Tonka", "Couro", "Heléboro"] },
+    accords: [ {name:"Aromátco", value:90}, {name:"Especiado Quente", value:55}, {name:"Lavanda", value:53}, {name:"Frutado", value:40} ],
+    occasion: "Assinatura", season: "Todas as Estações", longevity: "6 horas", sillage: "Intimista a Moderada", images: ["images/black_essential_secret.avif"]
+  },
+  {
+    brand: "Lattafa", name: "Brioche Vanille", type: "Mini Frasco · 20ml", fill: 100, price: "55",
+    tag: "Oriental Abaunilhado", category: ["Feminno"],
+    description: "Perfume doce abaunilhado com cheiro de massa de bolo de baunilha assim que saiu do forno. Quente, doce e cremoso.",
+    notes: { topo: ["Brioche", "Bergamota", "Frésia"], coracao: ["Bálsamo de Abeto", "Heliotrópio"], fundo: ["Baunilha", "Benjoim", "Pralinê"] },
+    accords: [ {name:"Baunilha", value:100}, {name:"Doce", value:85}, {name:"Âmbar", value:55}, {name:"Fresco Especiado", value:50} ],
+    occasion: "Ocasiões especiais", season: "Outono/Inverno", longevity: "9+ horas", sillage: "Moderada a Intensa", images: ["images/brioche_vanille.avif"]
   },
 ];
