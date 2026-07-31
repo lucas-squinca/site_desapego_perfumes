@@ -77,10 +77,42 @@ const perfumes = [
   },
   {
     brand: "Lattafa", name: "Brioche Vanille", type: "Mini Frasco · 20ml", fill: 100, price: "55",
-    tag: "Oriental Abaunilhado", category: ["Feminno"],
+    tag: "Oriental Abaunilhado", category: ["Feminino"],
     description: "Perfume doce abaunilhado com cheiro de massa de bolo de baunilha assim que saiu do forno. Quente, doce e cremoso.",
     notes: { topo: ["Brioche", "Bergamota", "Frésia"], coracao: ["Bálsamo de Abeto", "Heliotrópio"], fundo: ["Baunilha", "Benjoim", "Pralinê"] },
     accords: [ {name:"Baunilha", value:100}, {name:"Doce", value:85}, {name:"Âmbar", value:55}, {name:"Fresco Especiado", value:50} ],
     occasion: "Ocasiões especiais", season: "Outono/Inverno", longevity: "9+ horas", sillage: "Moderada a Intensa", images: ["images/brioche_vanille.avif"]
+  },
+  {
+    brand: "Eudora", name: "Club 6 Exclusive", type: "Deo Colônia", fill: 100, price: "85",
+    tag: "Oriental Abaunilhado", category: ["Masculino"],
+    description: "Perfume doce e quente com toque alcóolico de whisky, caramelo e o frutado do abacaxi em calda.",
+    notes: { topo: ["Calda", "Abacaxi", "Pimenta Preta", "Maçã", "Toranja", "Sálvia"], coracao: ["Canela", "Lavanda", "Gerânio", "Flor de Laranjeira"], fundo: ["Caramelo", "Whisky", "Âmbar", "Cumarina", "Cedro", "Vetiver"] },
+    accords: [ {name:"Baunilha", value:100}, {name:"Doce", value:85}, {name:"Âmbar", value:55}, {name:"Fresco Especiado", value:50} ],
+    occasion: "Encontros / Ocasiões Especiais", season: "Outono/Inverno", longevity: "9 horas", sillage: "Moderada a Intensa", images: ["images/club6_exclusive.avif"]
+  },
+  {
+    brand: "Eudora", name: "Club 6 Intenso", type: "Deo Colônia - 100ml", fill: 95, price: "90",
+    tag: "Oriental Abaunilhado", category: ["Masculino"],
+    description: "Perfume extremamente carregado nas especiarias quentes, como cardamomo, noz-moscada e canela com adocicado do camarelo. Elegante para assinatura no inverno.",
+    notes: { topo: ["Abacaxi", "Cardamomo", "Limão", "Bergamota", "Açafrão"], coracao: ["Noz-moscada", "Canela", "Lavanda", "Gerânio"], fundo: ["Caramelo", "Couro", "Baunilha", "Cedro", "Âmbar"] },
+    accords: [ {name:"Especiado Quente", value:90}, {name:"Doce", value:70}, {name:"Caramelo", value:60}, {name:"Fresco Especiado", value:50} ],
+    occasion: "Ocasiões especiais / Assinatura", season: "Outono/Inverno", longevity: "7 horas", sillage: "Moderada", images: ["images/club6_intenso.avif"]
+  },
+  {
+    brand: "Lattafa", name: "Confidential Private Gold", type: "Eau de Parfum - 100ml", fill: 100, price: "160",
+    tag: "Chipre Frutado", category: ["Unissex"],
+    description: "Perfume doce frutado fresco com pêssego, maracujá, pera e pêssego com uma vibe divertida para o dia a dia.",
+    notes: { topo: ["Pêssego", "Maracujá", "Pera", "Framboesa", "Cássis"], coracao: ["Lírio-do-vale"], fundo: ["Almíscar", "Baunilha", "Patchouli", "Sândalo", "Heliotrópio"] },
+    accords: [ {name:"Frutado", value:100}, {name:"Doce", value:70}, {name:"Atalcado", value:40}, {name:"Fresco", value:30} ],
+    occasion: "Dia a dia / Assinatura", season: "Verão/Primavera/Outono", longevity: "8 horas", sillage: "Moderada", images: ["images/confidential_private_gold.avif"]
+  },
+  {
+    brand: "Natura", name: "Essencial Ato", type: "Deo Parfum (MINI FRASCO) - 25ml", fill: 100, price: "55",
+    tag: "Amadeirado Especiado", category: ["Masculino"],
+    description: "Perfume amadeirado fresco solar, extremamente diferenciado para o dia a dia.",
+    notes: { topo: ["Priprioca", "Laranja", "Pimenta Preta"], coracao: ["Flor de Sequoia", "Flor de Laranjeira", "Notas Solares", "Jasmin Sambac"], fundo: ["Sândalo", "Âmbar", "Vetiver", "Cedro"] },
+    accords: [ {name:"Amadeirado", value:95}, {name:"Aromático", value:60}, {name:"Cítrico", value:55}, {name:"Floral Branco", value:50} ],
+    occasion: "Assinatura", season: "Todas as Estações", longevity: "6 horas", sillage: "Moderada", images: ["images/essencial_ato.avif"]
   },
 ];
